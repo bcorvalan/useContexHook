@@ -2,7 +2,7 @@ import React, {useState, createContext} from 'react'
 import FunctionComponent from './components/FunctionTheme'
 
 export const ThemeContext  = createContext();
-export const OtroContext  = createContext();
+
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
